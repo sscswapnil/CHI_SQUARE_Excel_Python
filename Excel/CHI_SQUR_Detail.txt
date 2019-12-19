@@ -1,0 +1,38 @@
+*** CHI_SQUR Test is use to analyse testing of hypothesis for categorical data ***
+
+First transform numerical data into catagorical data with the help of frequency then find out CHI_SQUR Values.
+
+
+
+
+
+Assumptions for the testing of Hypothesis
+
+H0 – service quality is ((not)) dependent on the salaries of people waiting for the tables.
+H1 – service quality is dependent on the salaries of people waiting for the tables.
+
+If Chi_SQUr CAlculated is greater than Chi_SQUR Critical then then we generally reject the 
+NULL Hypothesis (For Positive assumptions i.e there is a relation between the variable) but here we start 
+with negative hypothesis thats why we are rejecting NULL Hypothesis and Accept The Alternative Hypothesis.
+
+Calculated value < Tabulated value(Critical Value) to Accept the NULL Hypothesis
+ 
+***** Critical Value Must Be Higher Than Calculated Value To Accept The Null Hypothesis ***** 
+HERE,
+
+X2 (Calculated)> X2(Tabulated)(Critical) 
+
+18.65>9.48
+
+In this case, we will reject the Null Hypothesis(H0) and Alternate(H1) will be accepted.
+
+We can also use P-Value to predict the same i.e. if P-value <= α (significant value 0.05), Null hypothesis will be rejected
+
+If the P-value > α, do not reject the null hypothesis.
+
+Here P-value( 0.0009172) < α (0.05), reject H0, accept H1
+
+
+(( Acceptance of Hypothesis is depent on Critical Value, Critical Value must be greater))
+
+(( but with the help of p_value we are going to accept or not it is completely depend on starting Assuption is positive or Not)) 
